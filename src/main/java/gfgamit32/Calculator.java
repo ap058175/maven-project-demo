@@ -18,6 +18,10 @@ public class Calculator {
 	public int div(int a, int b) {
 		return (a/b);
 	}
+	
+	public int mod(int a, int b) {
+		return (a%b);
+	}
 
 	public static void main(String[] args) {
 		
@@ -26,6 +30,7 @@ public class Calculator {
     System.out.println("Diff is :"+myCalc.diff(20,10));
     System.out.println("mul is :"+myCalc.mul(20,10));
     System.out.println("Div is :"+myCalc.div(20,10));
+    System.out.println("Mod is :"+myCalc.mod(20,10));
 	}
 
 }
