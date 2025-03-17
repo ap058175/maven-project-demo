@@ -30,5 +30,12 @@ pipeline
 				sh 'mvn install'
 			}
 		  }
+		  stage('Build Success')
+		  {
+			steps
+			{
+				echo 'Build Successful'
+			}
+		  }
 	}
 }
